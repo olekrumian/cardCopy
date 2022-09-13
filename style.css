@@ -1,10 +1,11 @@
 :root {
-  --white: hsl(205, 100%, 96%);
+  --white: hsl(0, 0%, 100%);
   --grey: hsl(209, 61%, 16%);
   --black: #222222;
+  --link-blue: #2400FF;
   --blue: #0057b8;
   --yellow: #ffd700;
-  --ff-primary: 'Gilroy', sans-serif;
+  --ff-primary: 'Gilroy';
   --transition: all 0.3s linear;
   --spacing: -0.02em;
 }
