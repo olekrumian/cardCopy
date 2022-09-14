@@ -149,6 +149,7 @@ h4 {
     font-weight: 800;
     font-style: normal;
     color: var(--black);
+    text-transform: uppercase;
   }
 
   .banks-list {
@@ -162,9 +163,10 @@ h4 {
   }
 
   .banks-list p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 800;
     color: var(--grey);
+    text-transform: uppercase;
   }
 
   .banks-list p:not(:first-child) {
@@ -182,7 +184,7 @@ h4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 3.5rem 2rem 1.6rem;
+    padding: 2rem 1.6rem 2rem 1.6rem;
     color: var(--blue);
     background-color: var(--white);
     font-weight: 700;
