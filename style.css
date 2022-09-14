@@ -145,7 +145,7 @@ h4 {
 
   .important-section p {
     margin-top: 1.6rem;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     font-weight: 800;
     font-style: normal;
     color: var(--black);
@@ -163,7 +163,7 @@ h4 {
   }
 
   .banks-list p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 800;
     color: var(--grey);
     text-transform: uppercase;
@@ -243,7 +243,7 @@ h4 {
     max-width: 80%;
     text-align: center;
     font-weight: 700;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     line-height: 1.5rem;
     text-transform: uppercase;
   }
