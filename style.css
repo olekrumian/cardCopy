@@ -1,6 +1,6 @@
 :root {
-  --white: hsl(0, 0%, 100%);
-  --grey: hsl(209, 61%, 16%);
+  --white: #ffffff;
+  --grey: #71717a;
   --black: #222222;
   --link-blue: #2400ff;
   --blue: #0057b8;
@@ -69,11 +69,6 @@ h3 {
 
 h4 {
   font-size: 0.875rem;
-}
-
-p {
-  margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
 }
 
 @media screen and (max-width: 576px) {
@@ -151,5 +146,57 @@ p {
     font-weight: 800;
     font-style: normal;
     color: var(--black);
+  }
+
+  .banks-list {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 3.2rem;
+    width: 100%;
+    max-width: 90%;
+  }
+
+  .banks-list p {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--grey);
+  }
+
+  .banks-list p:not(:first-child) {
+    margin-top: 2rem;
+  }
+
+  .banks-list a {
+    border: 0.2rem solid var(--blue);
+    border-radius: 0.8rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3.5rem 2rem 1.6rem;
+    color: var(--blue);
+    font-weight: 700;
+    font-size: 1.6rem;
+  }
+
+  .list-link {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .link-btn div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35rem;
+    max-width: 90%;
   }
 }
