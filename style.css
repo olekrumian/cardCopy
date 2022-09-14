@@ -245,4 +245,9 @@ h4 {
     line-height: 1.5rem;
     text-transform: uppercase;
   }
+
+  .succes-copied {
+    background-color: var(--blue);
+    color: var(--white);
+  }
 }

@@ -1,40 +1,16 @@
-const btnCopy = document.querySelectorAll('.btn-copy');
+let btnCopy = document.querySelectorAll('.btn-copy');
+
+function copyClip(e) {
+  btnCopy = e.currentTarget.dataset.id;
+  let element = document.createElement('textarea');
+  element.value = btnCopy;
+  document.body.appendChild(element);
+  element.select();
+  document.execCommand('copy');
+  document.body.removeChild(element);
+  alert(`Номер карти ${element.value} скопійовано. Дякую за допомогу!`);
+}
 
 btnCopy.forEach(function (btn) {
-  btn.addEventListener('click', function (e) {
-    const id = e.currentTarget.dataset.id;
-    const idStr = JSON.stringify(id);
-    console.log(idStr);
-
-    document.execCommand('copy');
-  });
+  btn.addEventListener('click', copyClip);
 });
-
-/* function copyPass(e) {
-  e.preventDefault();
-  var copyText = document.querySelector('.input');
-  copyText.select();
-  copyText.setSelectionRange(0, 99999);
-  document.execCommand('copy');
-  // if (copyText.value === "") {
-  //   alert("NO DATA");
-  // } else {
-  //   alert("Copied the text: " + copyText.value);
-  // }
-} */
-
-// btnCopy.forEach(function (btn) {
-//   btn.addEventListener('click', function (e) {
-//     const category = e.currentTarget.dataset.id;
-//     const menuCategory = menu.filter(function (menuItem) {
-//       if (menuItem.category === category) {
-//         return menuItem;
-//       }
-//     });
-//     if (category === 'all') {
-//       displayMenuItems(menu);
-//     } else {
-//       displayMenuItems(menuCategory);
-//     }
-//   });
-// });
