@@ -2,7 +2,7 @@
   --white: hsl(0, 0%, 100%);
   --grey: hsl(209, 61%, 16%);
   --black: #222222;
-  --link-blue: #2400FF;
+  --link-blue: #2400ff;
   --blue: #0057b8;
   --yellow: #ffd700;
   --ff-primary: 'Gilroy';
@@ -82,35 +82,74 @@ p {
     width: 100%;
     max-width: 90%;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
-
   }
   .header {
     margin-top: 0.875rem;
   }
 
   .flag-container {
+    margin-top: 2.4rem;
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    align-items: left;
-    width: 3rem;
-    height: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 5rem;
+  }
+  .flag-container::after {
+    content: '❤️ зсу';
+    position: absolute;
+    color: var(--white);
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1.4rem;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
   }
 
-  .flag-blue{
-    width: 2rem;
-    height: 1rem;
+  .flag-blue {
+    width: 8rem;
+    height: 2.5rem;
     background-color: var(--blue);
   }
   .flag-yellow {
-    width: 2rem;
-    height: 1rem;
+    width: 8rem;
+    height: 2.5rem;
     background-color: var(--yellow);
   }
 
-  .main-section{
-    
+  .main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .goal-wrapper {
+    margin-top: 3.2rem;
+    width: 100%;
+    height: 6.4rem;
+    background-color: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10rem;
+  }
+  .goal-wrapper h1 {
+    padding: 1.6rem;
+    font-size: 3.2rem;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--white);
+  }
+
+  .important-section p {
+    margin-top: 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 800;
+    font-style: normal;
+    color: var(--black);
   }
 }
