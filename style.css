@@ -597,6 +597,9 @@ h4 {
   .description span {
     display: block;
   }
+  .description span a {
+    color: var(--black);
+  }
 
   .now-description {
     margin: 2.4rem 0 0 0;
