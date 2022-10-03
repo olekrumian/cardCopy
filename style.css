@@ -143,6 +143,7 @@ h4 {
     font-weight: 500;
     font-style: normal;
     color: var(--white);
+    z-index: 1;
   }
 
   .important-section p {
@@ -328,6 +329,7 @@ h4 {
     font-weight: 500;
     font-style: normal;
     color: var(--white);
+    z-index: 1;
   }
 
   .important-section p {
@@ -464,6 +466,7 @@ h4 {
     width: 8rem;
     height: 5rem;
   }
+
   .flag-container::after {
     content: '❤️ зсу';
     position: absolute;
@@ -498,6 +501,7 @@ h4 {
     max-width: 90%;
   }
   .goal-wrapper {
+    position: relative;
     margin-top: 3.2rem;
     height: 6.4rem;
     background-color: var(--blue);
@@ -505,7 +509,29 @@ h4 {
     justify-content: center;
     align-items: center;
     border-radius: 10rem;
+    overflow: hidden;
   }
+
+  .goal-wrapper::after {
+    content: '36%';
+    position: absolute;
+    top: -0.5rem;
+    left: 36%;
+    color: var(--grey);
+  }
+
+  .goal-wrapper::before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 36%;
+    background-color: rgba(82, 82, 82, 0.738);
+  }
+
   .title-sum,
   .subtitle-sum {
     padding: 1.6rem;
@@ -513,6 +539,7 @@ h4 {
     font-weight: 500;
     font-style: normal;
     color: var(--white);
+    z-index: 1;
   }
 
   .important-section p {
@@ -594,11 +621,17 @@ h4 {
     font-size: 1.6rem;
   }
 
+  .description a {
+    display: flex;
+    color: var(--black);
+  }
+
   .description span {
     display: block;
   }
-  .description span a {
-    color: var(--black);
+
+  .description span i {
+    padding: 0 0.5rem 0 0;
   }
 
   .now-description {
