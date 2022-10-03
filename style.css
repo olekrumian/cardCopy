@@ -136,16 +136,17 @@ h4 {
     align-items: center;
     border-radius: 10rem;
   }
-  .goal-wrapper h1,
-  h2 {
+  .title-sum,
+  .subtitle-sum {
     padding: 1.6rem;
     font-size: 3.2rem;
     font-weight: 500;
     font-style: normal;
-    color: var(--white) !important;
+    color: var(--white);
   }
 
   .important-section p {
+    text-align: center;
     margin-top: 1.6rem;
     font-size: 1.2rem;
     font-weight: 800;
@@ -320,16 +321,17 @@ h4 {
     align-items: center;
     border-radius: 10rem;
   }
-  .goal-wrapper h1,
-  h2 {
+  .title-sum,
+  .subtitle-sum {
     padding: 1.6rem;
     font-size: 3.2rem;
     font-weight: 500;
     font-style: normal;
-    color: var(--white) !important;
+    color: var(--white);
   }
 
   .important-section p {
+    text-align: center;
     margin-top: 1.6rem;
     font-size: 1.2rem;
     font-weight: 800;
@@ -504,13 +506,13 @@ h4 {
     align-items: center;
     border-radius: 10rem;
   }
-  .goal-wrapper h1,
-  h2 {
+  .title-sum,
+  .subtitle-sum {
     padding: 1.6rem;
     font-size: 2rem;
     font-weight: 500;
     font-style: normal;
-    color: var(--white) !important;
+    color: var(--white);
   }
 
   .important-section p {
