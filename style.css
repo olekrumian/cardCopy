@@ -594,6 +594,10 @@ h4 {
     font-size: 1.6rem;
   }
 
+  .description span {
+    display: block;
+  }
+
   .now-description {
     margin: 2.4rem 0 0 0;
     width: 100%;
