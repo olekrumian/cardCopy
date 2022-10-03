@@ -142,7 +142,7 @@ h4 {
     font-size: 3.2rem;
     font-weight: 500;
     font-style: normal;
-    color: var(--white);
+    color: var(--white) !important;
   }
 
   .important-section p {
@@ -326,7 +326,7 @@ h4 {
     font-size: 3.2rem;
     font-weight: 500;
     font-style: normal;
-    color: var(--white);
+    color: var(--white) !important;
   }
 
   .important-section p {
@@ -510,7 +510,7 @@ h4 {
     font-size: 2rem;
     font-weight: 500;
     font-style: normal;
-    color: var(--white);
+    color: var(--white) !important;
   }
 
   .important-section p {
