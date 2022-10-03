@@ -1,6 +1,7 @@
 :root {
   --white: #ffffff;
   --grey: #71717a;
+  --grey-lighter: #848484;
   --black: #222222;
   --link-blue: #2400ff;
   --blue: #0057b8;
@@ -515,9 +516,9 @@ h4 {
   .goal-wrapper::after {
     content: '36%';
     position: absolute;
-    top: -0.5rem;
-    left: 36%;
-    color: var(--grey);
+    top: 4.4rem;
+    left: calc(36% - 3rem);
+    color: var(--grey-lighter);
   }
 
   .goal-wrapper::before {
