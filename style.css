@@ -39,6 +39,13 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  color: var(--black);
+}
+strong > a {
+  text-decoration: underline;
+}
+
 img:not(.person-img) {
   width: 100%;
 }
