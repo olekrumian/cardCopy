@@ -201,6 +201,7 @@ h4 {
     background-color: var(--white);
     font-weight: 700;
     font-size: 1.6rem;
+    cursor: pointer;
   }
 
   .link-btn div {
@@ -387,6 +388,7 @@ h4 {
     background-color: var(--white);
     font-weight: 700;
     font-size: 1.6rem;
+    cursor: pointer;
   }
 
   .link-btn div {
@@ -597,6 +599,7 @@ h4 {
     background-color: var(--white);
     font-weight: 700;
     font-size: 1.6rem;
+    cursor: pointer;
   }
 
   .link-btn div {
