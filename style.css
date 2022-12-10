@@ -523,7 +523,7 @@ h4 {
   }
 
   .goal-wrapper::after {
-    content: '14%';
+    content: '16%';
     position: absolute;
     top: 4.4rem;
     left: calc(27% - 3rem);
@@ -538,7 +538,7 @@ h4 {
     right: 0;
     bottom: 0;
     left: 0;
-    width: 16%;
+    width: 17%;
     background-color: rgba(82, 82, 82, 0.738);
   }
 
